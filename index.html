@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              inter: "'Inter', sans-serif",
+            },
+          },
+        },
+      };
+    </script>
+    <script
+      src="https://kit.fontawesome.com/eccfaba240.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header
+      class="font-inter fixed left-0 right-0 top-0 z-50 w-full border-b-2 border-teal-500 bg-transparent py-4 text-gray-600 backdrop-blur-sm"
+    >
+      <div class="mx-auto max-w-[100rem] px-4 py-4">
+        <nav class="flex items-center justify-between">
+          <h1 class="text-base font-medium">
+            <span><i class="fa-solid fa-phone mr-2"></i></span>(0271) - 855 -
+            029
+          </h1>
+
+          <ul class="flex items-center">
+            <li>
+              <a
+                href="#"
+                class="mr-10 text-base font-semibold duration-150 ease-linear hover:text-teal-500"
+                >Beranda</a
+              >
+            </li>
+            <li>
+              <a
+                href="#produk"
+                class="mr-10 text-base font-semibold duration-150 ease-linear hover:text-teal-500"
+                >Produk Kami</a
+              >
+            </li>
+            <li>
+              <a
+                href="#kontak"
+                class="mr-10 text-base font-semibold duration-150 ease-linear hover:text-teal-500"
+                >Kontak</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-base font-semibold duration-150 ease-linear hover:text-teal-500"
+                >Tentang Kami</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="hero" class="font-inter min-h-screen py-56 text-gray-600">
+      <div
+        class="mx-auto flex max-w-[100rem] items-center justify-between px-4"
+      >
+        <div class="max-w-2xl self-center py-8">
+          <h3 class="text-xl font-semibold text-teal-400">
+            Apotek Rizky Peni Farma
+          </h3>
+          <h1 class="my-6 text-5xl font-bold leading-relaxed">
+            Layanan Farmasi Dengan Kualitas Terbaik Yang Anda Dapatkan.
+          </h1>
+          <p
+            class="mb-14 text-lg font-normal leading-relaxed tracking-wide text-gray-500"
+          >
+            Kami adalah apotek terpercaya yang berkomitmen untuk menyediakan
+            layanan kesehatan yang berkualitas tinggi kepada masyarakat.
+          </p>
+          <a
+            href="#produk"
+            class="mr-10 rounded-xl bg-teal-400 px-8 py-5 text-lg font-semibold text-white shadow-md transition duration-150 ease-in hover:bg-teal-500"
+            >Lihat Produk Kami
+            <span><i class="fa-solid fa-arrow-down ml-2"></i></span
+          ></a>
+          <span
+            ><a
+              href="#kontak"
+              class="group rounded-xl bg-transparent px-8 py-5 text-lg font-semibold text-gray-500 shadow-md outline outline-teal-400"
+              >Kontak Kami
+              <span
+                ><i
+                  class="fa-solid fa-chevron-right ml-2 duration-200 ease-in group-hover:rotate-90"
+                ></i></span></a
+          ></span>
+        </div>
+        <div class="w-5/6 md:w-1/2 lg:w-full lg:max-w-lg">
+          <img
+            class="rounded object-cover object-center"
+            alt="hero"
+            src="img/undraw_doctors_p6aq.svg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="produk" class="font-inter bg-gray-100 pb-32 pt-36">
+      <div class="mx-auto max-w-[100rem] px-4">
+        <div class="mb-7 flex flex-wrap items-center justify-between">
+          <div class="max-w-xl py-4">
+            <h1 class="text-4xl font-bold leading-relaxed text-gray-600">
+              Kualitas Obat Terbaik Yang Pernah Anda Dapatkan
+            </h1>
+          </div>
+          <div class="max-w-md py-4">
+            <div class="max-w-md border-b-2 border-teal-500 py-3">
+              <h2 class="text-2xl font-semibold text-gray-600">
+                <span class="text-lg"
+                  ><i
+                    class="fa-solid fa-circle mr-2"
+                    style="color: #14b8a6"
+                  ></i></span
+                >Layanan Apotek
+              </h2>
+            </div>
+            <p class="mt-4 text-base font-medium leading-relaxed text-gray-500">
+              Apotek kami menyediakan berbagai macam produk farmasi terkini dan
+              obat-obatan resep yang telah teruji keamanannya.
+            </p>
+          </div>
+        </div>
+        <div class="-m-1 flex flex-wrap md:-m-2">
+          <div class="flex w-1/2 flex-wrap">
+            <div class="w-1/2 p-1 shadow-lg md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full object-cover object-center"
+                src="img/generik.jpeg"
+              />
+            </div>
+            <div class="w-1/2 p-1 shadow-lg md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full object-cover object-center"
+                src="img/OTCHerb.jpeg"
+              />
+            </div>
+            <div class="w-full p-1 shadow-lg md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full object-cover object-center"
+                src="img/ETIKAL.jpeg"
+              />
+            </div>
+          </div>
+          <div class="flex w-1/2 flex-wrap">
+            <div class="w-full p-1 shadow-lg md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full object-cover object-center"
+                src="img/R.png"
+              />
+            </div>
+            <div class="w-1/2 p-1 shadow-lg md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full object-cover object-center"
+                src="img/oabt.jpeg"
+              />
+            </div>
+            <div class="w-1/2 p-1 shadow-lg md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full object-cover object-center"
+                src="img/Kosmetik.jpeg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="font-inter relative bg-slate-200 text-gray-400">
+      <div class="container mx-auto flex flex-wrap px-5 py-24 sm:flex-nowrap">
+        <div
+          class="relative flex items-end justify-start overflow-hidden rounded-xl bg-gray-900 p-10 sm:mr-10 md:w-1/2 lg:w-2/3"
+        >
+          <iframe
+            width="100%"
+            height="100%"
+            title="map"
+            class="absolute inset-0"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            scrolling="no"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.3991070486613!2d110.82477771166877!3d-7.531374574303259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a16b43b58c171%3A0xb58f56dd8884478b!2sRuko%20Peni%20Regency%2C%20Jl.%20Jaya%20Wijaya%20No.7%2C%20Kadipiro%2C%20Kec.%20Banjarsari%2C%20Kota%20Surakarta%2C%20Jawa%20Tengah%2057136!5e0!3m2!1sen!2sid!4v1684997351838!5m2!1sen!2sid"
+            style="filter: opacity(0.5)"
+          ></iframe>
+          <div
+            class="relative flex flex-wrap rounded-xl bg-gray-900 py-6 shadow-md"
+          >
+            <div class="px-6 lg:w-1/2">
+              <h2
+                class="text-xs font-semibold uppercase tracking-normal text-white"
+              >
+                Alamat Kami
+              </h2>
+              <p class="mt-1 font-normal">
+                Ruko Peni Regency 9.A1, Plesungan 2/2, Gondang Rejo, Surakarta.
+              </p>
+            </div>
+            <div class="mt-4 px-6 lg:mt-0 lg:w-1/2">
+              <h2
+                class="text-xs font-semibold uppercase tracking-normal text-white"
+              >
+                Email Kami
+              </h2>
+              <a class="leading-relaxed text-indigo-400">blablabla@gmail.com</a>
+              <h2
+                class="mt-4 text-xs font-semibold uppercase tracking-normal text-white"
+              >
+                Hubungi Kami
+              </h2>
+              <p class="leading-relaxed">(0271)-855-029</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mt-8 flex w-full flex-col md:ml-auto md:mt-0 md:w-1/2 md:py-8 lg:w-1/3"
+        >
+          <h2 class="mb-1 text-lg font-semibold text-gray-600">Hubungi Kami</h2>
+          <p class="mb-5 font-normal leading-relaxed text-gray-500">
+            Ada hal yang ingin ditanyakan? silakan isi form dibawah ini!
+          </p>
+          <div class="relative mb-4">
+            <label for="name" class="text-sm leading-7 text-gray-600"
+              >Nama</label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="w-full rounded border border-gray-700 bg-gray-800 px-3 py-1 text-base leading-8 text-gray-100 outline-none transition-colors duration-200 ease-in-out focus:border-teal-500 focus:ring-2 focus:ring-indigo-900"
+            />
+          </div>
+          <div class="relative mb-4">
+            <label for="email" class="text-sm leading-7 text-gray-600"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-full rounded border border-gray-700 bg-gray-800 px-3 py-1 text-base leading-8 text-gray-100 outline-none transition-colors duration-200 ease-in-out focus:border-teal-500 focus:ring-2 focus:ring-indigo-900"
+            />
+          </div>
+          <div class="relative mb-4">
+            <label for="message" class="text-sm leading-7 text-gray-600"
+              >Isi Pesan</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              class="h-32 w-full resize-none rounded border border-gray-700 bg-gray-800 px-3 py-1 text-base leading-6 text-gray-100 outline-none transition-colors duration-200 ease-in-out focus:border-teal-500 focus:ring-2 focus:ring-indigo-900"
+            ></textarea>
+          </div>
+          <button
+            class="rounded border-0 bg-teal-500 px-6 py-2 text-lg font-semibold tracking-wide text-white duration-150 ease-linear hover:bg-teal-600 focus:outline-none"
+          >
+            Kirim Pesan
+          </button>
+          <p
+            class="mt-3 text-base font-medium leading-relaxed text-gray-500 text-opacity-90"
+          >
+            *Pesan anda akan dikirim dan dibaca oleh owner kurang lebih 2 x 24
+            jam kerja, apabila lebih dari itu tidak ada respon maka silakan
+            hubungi kami via Whatsapp.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="font-inter border-t-2 border-teal-500 bg-slate-200 py-4">
+      <div class="mx-auto max-w-lg p-5 text-center">
+        <h1 class="text-base font-bold text-slate-400 opacity-75">
+          &copy; Copyright Apotek Rizky Peni Farma | All Rights Reserved
+        </h1>
+      </div>
+    </footer>
+  </body>
+</html>
